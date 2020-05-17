@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="34282" started-at="2020-04-26T15:17:15 NZST" finished-at="2020-04-26T15:17:49 NZST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="34282" started-at="2020-04-26T15:17:15 NZST" finished-at="2020-04-26T15:17:49 NZST">
+      <class name="suites.TC_001_HomePageTest">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:suites.TC_001_HomePageTest@6989da5e]" name="tearUp" is-config="true" duration-ms="34107" started-at="2020-04-26T15:17:15 NZST" finished-at="2020-04-26T15:17:49 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="VerifyCovidLevelText()[pri:0, instance:suites.TC_001_HomePageTest@6989da5e]" name="VerifyCovidLevelText" duration-ms="38" started-at="2020-04-26T15:17:49 NZST" finished-at="2020-04-26T15:17:49 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCovidLevelText -->
+        <test-method status="PASS" signature="VerifyCovidText()[pri:0, instance:suites.TC_001_HomePageTest@6989da5e]" name="VerifyCovidText" duration-ms="40" started-at="2020-04-26T15:17:49 NZST" finished-at="2020-04-26T15:17:49 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCovidText -->
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:suites.TC_001_HomePageTest@6989da5e]" name="VerifyTitle" duration-ms="8" started-at="2020-04-26T15:17:49 NZST" finished-at="2020-04-26T15:17:49 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suites.TC_001_HomePageTest@6989da5e]" name="tearDown" is-config="true" duration-ms="80" started-at="2020-04-26T15:17:49 NZST" finished-at="2020-04-26T15:17:49 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- suites.TC_001_HomePageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

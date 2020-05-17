@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24193" started-at="2020-04-25T21:11:23 NZST" finished-at="2020-04-25T21:11:47 NZST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="12703" started-at="2020-04-25T21:11:23 NZST" finished-at="2020-04-25T21:11:35 NZST">
+      <class name="suites.TC_001_HomePageTest">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:suites.TC_001_HomePageTest@3c3d9b6b]" name="tearUp" is-config="true" duration-ms="11789" started-at="2020-04-25T21:11:23 NZST" finished-at="2020-04-25T21:11:35 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="VerifyCovidLevelText()[pri:0, instance:suites.TC_001_HomePageTest@3c3d9b6b]" name="VerifyCovidLevelText" duration-ms="50" started-at="2020-04-25T21:11:35 NZST" finished-at="2020-04-25T21:11:35 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCovidLevelText -->
+        <test-method status="FAIL" signature="VerifyCovidText()[pri:0, instance:suites.TC_001_HomePageTest@3c3d9b6b]" name="VerifyCovidText" duration-ms="43" started-at="2020-04-25T21:11:35 NZST" finished-at="2020-04-25T21:11:35 NZST">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<...3...> but was:<...4...>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<...3...> but was:<...4...>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at pageObjects.anzHomePage.verifyCovidText(anzHomePage.java:34)
+at suites.TC_001_HomePageTest.VerifyCovidText(TC_001_HomePageTest.java:40)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCovidText -->
+        <test-method status="PASS" signature="VerifyTitle()[pri:0, instance:suites.TC_001_HomePageTest@3c3d9b6b]" name="VerifyTitle" duration-ms="27" started-at="2020-04-25T21:11:35 NZST" finished-at="2020-04-25T21:11:35 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suites.TC_001_HomePageTest@3c3d9b6b]" name="tearDown" is-config="true" duration-ms="101" started-at="2020-04-25T21:11:35 NZST" finished-at="2020-04-25T21:11:35 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- suites.TC_001_HomePageTest -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="11442" started-at="2020-04-25T21:11:36 NZST" finished-at="2020-04-25T21:11:47 NZST">
+      <class name="suites.TC_002_LoginPageTest">
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:suites.TC_002_LoginPageTest@77f80c04]" name="tearUp" is-config="true" duration-ms="7282" started-at="2020-04-25T21:11:36 NZST" finished-at="2020-04-25T21:11:43 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:suites.TC_002_LoginPageTest@77f80c04]" name="LoginTest" duration-ms="1297" started-at="2020-04-25T21:11:43 NZST" data-provider="getData" finished-at="2020-04-25T21:11:44 NZST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass00]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:suites.TC_002_LoginPageTest@77f80c04]" name="LoginTest" duration-ms="1384" started-at="2020-04-25T21:11:44 NZST" data-provider="getData" finished-at="2020-04-25T21:11:45 NZST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="LoginTest(java.lang.String, java.lang.String)[pri:0, instance:suites.TC_002_LoginPageTest@77f80c04]" name="LoginTest" duration-ms="1434" started-at="2020-04-25T21:11:45 NZST" data-provider="getData" finished-at="2020-04-25T21:11:47 NZST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:suites.TC_002_LoginPageTest@77f80c04]" name="tearDown" is-config="true" duration-ms="35" started-at="2020-04-25T21:11:47 NZST" finished-at="2020-04-25T21:11:47 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- suites.TC_002_LoginPageTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
