@@ -1,0 +1,4 @@
+pageobject\anz_homePage.class
+pageobject\store_loginPage.class
+pageobject\store_shoppingPage.class
+pageobject\store_kartPage.class

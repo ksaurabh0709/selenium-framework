@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="574104" started-at="2020-05-27T20:59:28 NZST" finished-at="2020-05-27T21:09:02 NZST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="574104" started-at="2020-05-27T20:59:28 NZST" finished-at="2020-05-27T21:09:02 NZST">
+      <class name="test_suite.tc01_hybridapp">
+        <test-method status="PASS" signature="suiteup()[pri:0, instance:test_suite.tc01_hybridapp@536aaa8d]" name="suiteup" is-config="true" duration-ms="16982" started-at="2020-05-27T20:59:28 NZST" finished-at="2020-05-27T20:59:45 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteup -->
+        <test-method status="PASS" signature="shop_shoes()[pri:0, instance:test_suite.tc01_hybridapp@536aaa8d]" name="shop_shoes" duration-ms="76663" started-at="2020-05-27T20:59:45 NZST" finished-at="2020-05-27T21:01:01 NZST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shop_shoes -->
+        <test-method status="FAIL" signature="teardown()[pri:0, instance:test_suite.tc01_hybridapp@536aaa8d]" name="teardown" is-config="true" duration-ms="480397" started-at="2020-05-27T21:01:01 NZST" finished-at="2020-05-27T21:09:02 NZST">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: ESOCKETTIMEDOUT
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3MGQCV', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\saura\Desktop\Lear..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\saura\Desktop\Lear..., automationName: uiautomator2, deviceName: Android Device, newCommandTimeout: 15, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Redmi 8, deviceName: c3c272c80706, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: c3c272c80706, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 55, takesScreenshot: true, viewportRect: {height: 1314, left: 0, top: 55, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6faf9901-ec1b-4c25-84b8-d43bb46889bc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: ESOCKETTIMEDOUT
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-V3MGQCV', ip: '192.168.1.68', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: C:\Users\saura\Desktop\Lear..., appPackage: com.androidsample.generalstore, automationName: uiautomator2, databaseEnabled: false, desired: {app: C:\Users\saura\Desktop\Lear..., automationName: uiautomator2, deviceName: Android Device, newCommandTimeout: 15, platformName: android}, deviceApiLevel: 28, deviceManufacturer: Xiaomi, deviceModel: Redmi 8, deviceName: c3c272c80706, deviceScreenDensity: 320, deviceScreenSize: 720x1520, deviceUDID: c3c272c80706, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 15, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 9, statBarHeight: 55, takesScreenshot: true, viewportRect: {height: 1314, left: 0, top: 55, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6faf9901-ec1b-4c25-84b8-d43bb46889bc
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at test_suite.tc01_hybridapp.teardown(tc01_hybridapp.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+at org.testng.TestRunner.afterRun(TestRunner.java:849)
+at org.testng.TestRunner.run(TestRunner.java:590)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test_suite.tc01_hybridapp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
